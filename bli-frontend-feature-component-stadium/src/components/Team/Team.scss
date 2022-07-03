@@ -1,0 +1,89 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.page {
+    height    : 100vh;
+    margin-top: 60px;
+    display   : flex;
+}
+
+.logo-team {
+    height       : 300px;
+    width        : 300px;
+    border-radius: 20px;
+    margin-top   : 10px;
+    margin-left  : 10px;
+}
+
+.heading {
+    text-align    : center;
+    margin-top    : 1.5rem;
+    font-weight   : bold;
+    color         : orange;
+    letter-spacing: 0.15em;
+    font-size     : 2rem;
+}
+
+.img-holder {
+    margin       : auto;
+    width        : 155px;
+    height       : 155px;
+    border       : 2px solid rgba(34, 193, 195, 1);
+    border-radius: 10px;
+    margin-top   : 1rem;
+}
+
+.img {
+    width     : 150px;
+    height    : 150px;
+    object-fit: cover;
+
+}
+
+#input[type="file"] {
+    display: none;
+}
+
+.label {
+    width          : 100%;
+    margin-top     : 1 rem;
+    display        : flex;
+    justify-content: center;
+}
+
+.image-upload {
+    width           : 150px;
+    height          : 20px;
+    background-color: rgb(219, 205, 205);
+    color           : rgb(12, 0, 0);
+    border-radius   : 10px;
+    text-align      : center;
+    cursor          : pointer;
+    font-size       : 12px;
+    margin-top      : 5px;
+
+    .file-image {
+        margin-right: 7px;
+        margin-top  : 3px;
+    }
+
+}
+
+.list-team h1 {
+    margin-left   : 150px;
+    margin-top    : 3rem;
+    color         : orange;
+    letter-spacing: 0.05em;
+    font-size     : 4rem;
+}
+
+.tablelist {
+    width    : 800px;
+    font-size: 15px;
+
+    .table {
+        background-color: rgb(234, 247, 176);
+        border-radius   : 10px;
+    }
+}

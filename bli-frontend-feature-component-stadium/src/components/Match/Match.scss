@@ -1,0 +1,16 @@
+.list-match {
+    height         : 100vh;
+    margin-top     : 60px;
+    display        : flex;
+    justify-content: center;
+}
+
+.tablelist {
+    width    : 800px;
+    font-size: 15px;
+
+    .table {
+        background-color: rgb(234, 247, 176);
+        border-radius   : 10px;
+    }
+}
